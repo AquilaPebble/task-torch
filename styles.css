@@ -1,0 +1,22 @@
+body {
+    background-color: #EAE2B7;
+    padding: 0;
+    margin: 0;
+}
+div {
+    display: block;
+}
+.navbar {
+    top: 0;
+    padding: 2%;
+    background-color: #FCBF49;
+    overflow: hidden;
+    text-align: center;
+}
+.sticky {
+    position: sticky;
+}
+#logo {
+    width: 20%;
+    float: left;
+}
