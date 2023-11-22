@@ -38,8 +38,16 @@ img {
 }
 .navButton {
     font-size: calc(3px + 0.8vh + 0.8vw);
+    background-color: #EAE2B7;
     border: solid;
+    border-color: #003049;
     border-radius: 0.25rem;
     margin: 5px;
     padding: 2px;
+    cursor: pointer;
+}
+.navButton:hover {
+    background-color: #003049;
+    border-color: #EAE2B7;
+    color: #EAE2B7;
 }
