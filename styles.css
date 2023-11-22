@@ -2,6 +2,11 @@ body {
     background-color: #EAE2B7;
     padding: 0;
     margin: 0;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 div {
     display: block;
@@ -15,16 +20,26 @@ img {
 }
 .navbar {
     top: 0;
-    padding: 2%;
     background-color: #FCBF49;
     overflow: hidden;
     text-align: center;
+    padding: calc(0.8vh + 0.8vw);
 }
 .sticky {
     position: sticky;
 }
 #logo {
-    width: 15%;
+    width: calc(60px + 0.8vh + 0.8vw);
     float: left;
     cursor: pointer;
+}
+.floatRight {
+    float: right;
+}
+.navButton {
+    font-size: calc(3px + 0.8vh + 0.8vw);
+    border: solid;
+    border-radius: 0.25rem;
+    margin: 5px;
+    padding: 2px;
 }
