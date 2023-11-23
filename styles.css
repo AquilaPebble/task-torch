@@ -11,6 +11,9 @@ body {
 div {
     display: block;
 }
+a {
+    -webkit-user-drag: none;
+}
 img {
     -webkit-user-drag: none;
     user-select: none;
@@ -23,7 +26,7 @@ img {
     background-color: #FCBF49;
     overflow: hidden;
     text-align: center;
-    padding: calc(0.8vh + 0.8vw);
+    padding: calc(0.5vh + 0.5vw);
 }
 .sticky {
     position: sticky;
@@ -41,12 +44,16 @@ img {
     background-color: #EAE2B7;
     border: solid;
     border-color: #003049;
+    color: #003049;
     border-radius: 0.25rem;
     margin: 5px;
-    padding: 2px;
+    padding: 3px;
     cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
 }
 .navButton:hover {
+    opacity: 1;
     background-color: #003049;
     border-color: #EAE2B7;
     color: #EAE2B7;
