@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap');
 body {
     background-color: #EAE2B7;
     padding: 0;
@@ -11,8 +12,12 @@ body {
 div {
     display: block;
 }
+p {
+    font-family: 'Manrope', sans-serif;
+}
 a {
     -webkit-user-drag: none;
+    
 }
 img {
     -webkit-user-drag: none;
@@ -27,6 +32,7 @@ img {
     overflow: hidden;
     text-align: center;
     padding: calc(0.5vh + 0.5vw);
+    font-family: 'Manrope', sans-serif;
 }
 .sticky {
     position: sticky;
@@ -36,8 +42,17 @@ img {
     float: left;
     cursor: pointer;
 }
+#clickLogo {
+    transition: 0.3s;
+}
+#clickLogo:hover {
+    filter: invert(0.5);
+}
 .floatRight {
     float: right;
+}
+.floatLeft {
+    float: left;
 }
 .navButton {
     font-size: calc(3px + 0.8vh + 0.8vw);
@@ -49,12 +64,29 @@ img {
     margin: 5px;
     padding: 3px;
     cursor: pointer;
-    opacity: 0.9;
     transition: 0.3s;
 }
 .navButton:hover {
-    opacity: 1;
     background-color: #003049;
     border-color: #EAE2B7;
     color: #EAE2B7;
+}
+#footer {
+    background-color: rgb(255, 224, 163);
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+}
+#footerlogo {
+    width: calc(30px + 0.8vh + 0.8vw);
+}
+#contactButton {
+    width: fit-content;
+}
+#logotext {
+    color: #003049;
+    font-style: italic;
 }
