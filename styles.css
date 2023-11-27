@@ -99,9 +99,14 @@ img {
 }
 
 #hometop {
-    text-align: center;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
     position: fixed;
     font-family: 'Manrope', sans-serif;
+    left: 0;
+    width: 100%;
+    padding: 1%;
 }
 
 #mascot {
